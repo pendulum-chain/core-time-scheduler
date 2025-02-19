@@ -1,5 +1,6 @@
 {
   "name": "core-time-scheduler",
+  "packageManager": "yarn@4.5.0",
   "scripts": {
     "prepare": "husky install",
     "buy:on-demand": "node ./src/buy-on-demand.js",
