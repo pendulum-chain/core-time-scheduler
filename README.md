@@ -17,9 +17,9 @@ amount you are willing to pay for it. Note that `<max-amount>` is in units of th
 the raw representation of it.
 
 - The default value for `<network>` is `paseo`.
-- The default value for `<max-amount>` is 0.1 unit.
+- The default value for `<max-amount>` is 1 unit.
 
-### Buy bulk core time
+### Buy bulk core time (Coming soon)
 
 To buy bulk core time, you need to run the following command:
 
