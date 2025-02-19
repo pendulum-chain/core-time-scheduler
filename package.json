@@ -1,4 +1,21 @@
 {
   "name": "core-time-scheduler",
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "scripts": {
+    "prepare": "husky install",
+    "buy:on-demand": "node ./src/buy-on-demand.js",
+    "buy:bulk": "node ./src/buy-bulk.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^15.6.1",
+    "@polkadot/util": "^13.4.3",
+    "@polkadot/util-crypto": "^13.4.3"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "3.5.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
